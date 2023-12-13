@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassin'S Creed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97640f9bcf.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!------------------------------ navigation ------------------------------>
+
+    <div class="toggle-btn" onclick="myfunction()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <div id="navigation">
+        <div class="logo">
+            <p class="sign">*</p>
+            <p>Assassin'S<br>Creed</p>
+        </div>
+        <div class="menus">
+            <ul>
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="home-section">
+        <div class="home-info">
+            <img src="images/home-img2.png" alt="Altair Assassins Creed" class="home-bg">
+            <p>Assassin's Creed is an action-adventure video game developed by Ubisoft Montreal and published by
+                Ubisoft. It is the first installment in the Assassin's Creed series. The game was released for
+                PlayStation 3 and Xbox 360 in November 2007.</p>
+        </div>
+    </div>
+    </div>
+
+    <hr>
+
+    <!------------------------------ About ------------------------------>
+
+    <div id="about">
+        <h2>About the Game</h2>
+        <div class="about-para">
+            <p>Assassin's Creed is an open-world action-adventure stealth video game franchise published by Ubisoft and
+                developed mainly by its studio Ubisoft Montreal using the game engine Anvil and its more advanced
+                derivatives. Created by Patrice Désilets, Jade Raymond, and Corey May, the Assassin's Creed series
+                depicts a fictional millennia-old struggle between the Assassins, who fight for peace and free will, and
+                the Templars, who desire peace through order and control. The series features historical fiction,
+                science fiction and fictional characters intertwined with real-world historical events and figures. In
+                the majority of the games, players control a historical Assassin, while also playing as an Assassin
+                Initiate or someone caught in the Assassin-Templar conflict in the present-day framing story. Considered
+                a spiritual successor to the Prince of Persia series, Assassin's Creed took inspiration from the novel
+                Alamut by the Slovenian writer Vladimir Bartol, based on the historical Hashashin sect of the medieval
+                Middle East.</p>
+        </div>
+    </div>
+    <hr>
+
+    <!------------------------------ services ------------------------------>
+
+    <div id="services">
+        <h2>characters</h2>
+        <div class="services-banner">
+            <img src="images/services1.png" alt="" height="375px">
+            <h3 class="services-heading">Ezio Auditore</h3>
+            <p class="services-para">Ezio Auditore da Firenze is a fictional character in the video game series
+                Assassin's Creed, an Italian master assassin who serves as the protagonist of the series' games set
+                during the Italian Renaissance.</p>
+        </div>
+
+        <div class="services-banner">
+            <img src="images/services2.png" alt="" height="375px">
+            <h3 class="services-heading">Altaïr Ibn-LaʼAhad</h3>
+            <p class="services-para">Altaïr Ibn-La'Ahad is a fictional character in Ubisoft's Assassin's Creed video
+                game series, a Syrian master assassin who serves as the protagonist of the games set in the late 12th
+                and early 13th century. </p>
+        </div>
+
+        <div class="services-banner">
+            <img src="images/services3.png" alt="" width="200px">
+            <h3 class="services-heading">Bayek</h3>
+            <p class="services-para">Bayek is a fictional character in Ubisoft's Assassin's Creed video game franchise.
+                He serves as the protagonist of the 2017 title Assassin's Creed Origins, and first appeared in the
+                tie-in novel Assassin's </p>
+        </div>
+
+        <div class="services-banner">
+            <img src="images/services4.png" alt="" width="200px">
+            <h3 class="services-heading">Evie Frye</h3>
+            <p class="services-para">Dame Evie Frye was a Master Assassin of the British Brotherhood of Assassins,
+                active in London during the Victorian era, and the elder twin sister of Jacob Frye. She was also a
+                member of the Order...</p>
+        </div>
+    </div>
+    <hr>
+
+    <!------------------------------ contact form ------------------------------>
+
+    <div class="contact-form">
+        <form action="" name="myform" onsubmit="return validateform()" method="post">
+            <h2 class="form-heading" id="contact">contact us</h2>
+            <div class="formdesign" id="name">
+                <input type="text" name="cname" placeholder="Your Name" id="name" required><b><p class="formerror"></p></b>
+            </div>
+            <div class="formdesign" id="email">
+                <input type="email" name="cemail" placeholder="Emai ID" required><b><p class="formerror"></p></b>
+            </div>
+            <div class="formdesign" id="phone">
+                <input type="text" name="cphone" placeholder="Phone No." required><b><p class="formerror"></p></b>
+            </div>
+            <div class="formdesign" id="message">
+                <textarea id="message" rows="4" placeholder="Your Message" name="cmessage" required></textarea><b><p class="formerror"></p></b>
+            </div>
+            <div class="formdesign" id="submit">
+                <button type="submit" class="form-button" value="Submit">Submit Now</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+
+    <!------------------------------ footer ------------------------------>
+
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/ubisoft/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ubisoft/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Ubisoft" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.ubisoft.com/en-gb/" target="_blank"><i class="fa-brands fa-firefox"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/about.html">About</a>
+            </li>
+            <li>
+                <a href="/contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="https://www.ubisoft.com/en-gb/" target="_blank">Official Website</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            <copyright>© 2022 Ubisoft Entertainment. All Rights Reserved. Assassin’s Creed, Ubisoft, and the Ubisoft
+                logo are registered or unregistered trademarks of Ubisoft Entertainment in the US and/or other
+                countries.</copyright>
+        </p>
+    </section>
+
+</body>
+
+</html>
